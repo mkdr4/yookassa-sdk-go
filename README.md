@@ -12,16 +12,16 @@
 </div>
 
 ### Установка
-`go get github.com/rvinnie/yookassa-sdk-go`
+`go get github.com/mkdr4/yookassa-sdk-go`
 
 ### Начало работы
 1. Импортируйте модуль
 ```golang
-import "github.com/rvinnie/yookassa-sdk-go"
+import "github.com/mkdr4/yookassa-sdk-go"
 ```
 2. Установите данные для конфигурации
 ```golang
-import "github.com/rvinnie/yookassa-sdk-go"
+import "github.com/mkdr4/yookassa-sdk-go"
 
 func main() {
     client := yookassa.NewClient('<Идентификатор магазина>', '<Секретный ключ>')	
@@ -30,16 +30,16 @@ func main() {
 3. Вызовите нужный метод API. [Подробнее в документации к API ЮKassa](https://yookassa.ru/developers/api)
 
 ## Примеры использования SDK
-#### [Настройки SDK API ЮKassa](https://github.com/rvinnie/yookassa-sdk-go/blob/main/docs/examples/01-configuration.md)
-* [Аутентификация](https://github.com/rvinnie/yookassa-sdk-go/blob/main/docs/examples/01-configuration.md#Аутентификация)
-* [Получение информации о магазине](https://github.com/rvinnie/yookassa-sdk-go/blob/main/docs/examples/01-configuration.md#Получение-информации-о-магазине)
-#### [Работа с платежами](https://github.com/rvinnie/yookassa-sdk-go/blob/main/docs/examples/02-payments.md)
-* [Запрос на создание платежа](https://github.com/rvinnie/yookassa-sdk-go/blob/main/docs/examples/02-payments.md#Запрос-на-создание-платежа)
-* [Запрос на подтверждение платежа](https://github.com/rvinnie/yookassa-sdk-go/blob/main/docs/examples/02-payments.md#Запрос-на-подтверждение-платежа)
-* [Запрос на отмену незавершенного платежа](https://github.com/rvinnie/yookassa-sdk-go/blob/main/docs/examples/02-payments.md#Запрос-на-отмену-незавершенного-платежа)
-* [Получить информацию о платеже](https://github.com/rvinnie/yookassa-sdk-go/blob/main/docs/examples/02-payments.md#Получить-информацию-о-платеже)
-* [Получить список платежей с фильтрацией](https://github.com/rvinnie/yookassa-sdk-go/blob/main/docs/examples/02-payments.md#Получить-список-платежей-с-фильтрацией)
-#### [Работа с возвратами](https://github.com/rvinnie/yookassa-sdk-go/blob/main/docs/examples/03-refunds.md)
-* [Запрос на создание возврата](https://github.com/rvinnie/yookassa-sdk-go/blob/main/docs/examples/03-refunds.md#Запрос-на-создание-возврата)
-* [Получить информацию о возврате](https://github.com/rvinnie/yookassa-sdk-go/blob/main/docs/examples/03-refunds.md#Получить-информацию-о-возврате)
-* [Получить список возвратов с фильтрацией](https://github.com/rvinnie/yookassa-sdk-go/blob/main/docs/examples/03-refunds.md#Получить-список-возвратов-с-фильтрацией)
+#### [Настройки SDK API ЮKassa](https://github.com/mkdr4/yookassa-sdk-go/blob/main/docs/examples/01-configuration.md)
+* [Аутентификация](https://github.com/mkdr4/yookassa-sdk-go/blob/main/docs/examples/01-configuration.md#Аутентификация)
+* [Получение информации о магазине](https://github.com/mkdr4/yookassa-sdk-go/blob/main/docs/examples/01-configuration.md#Получение-информации-о-магазине)
+#### [Работа с платежами](https://github.com/mkdr4/yookassa-sdk-go/blob/main/docs/examples/02-payments.md)
+* [Запрос на создание платежа](https://github.com/mkdr4/yookassa-sdk-go/blob/main/docs/examples/02-payments.md#Запрос-на-создание-платежа)
+* [Запрос на подтверждение платежа](https://github.com/mkdr4/yookassa-sdk-go/blob/main/docs/examples/02-payments.md#Запрос-на-подтверждение-платежа)
+* [Запрос на отмену незавершенного платежа](https://github.com/mkdr4/yookassa-sdk-go/blob/main/docs/examples/02-payments.md#Запрос-на-отмену-незавершенного-платежа)
+* [Получить информацию о платеже](https://github.com/mkdr4/yookassa-sdk-go/blob/main/docs/examples/02-payments.md#Получить-информацию-о-платеже)
+* [Получить список платежей с фильтрацией](https://github.com/mkdr4/yookassa-sdk-go/blob/main/docs/examples/02-payments.md#Получить-список-платежей-с-фильтрацией)
+#### [Работа с возвратами](https://github.com/mkdr4/yookassa-sdk-go/blob/main/docs/examples/03-refunds.md)
+* [Запрос на создание возврата](https://github.com/mkdr4/yookassa-sdk-go/blob/main/docs/examples/03-refunds.md#Запрос-на-создание-возврата)
+* [Получить информацию о возврате](https://github.com/mkdr4/yookassa-sdk-go/blob/main/docs/examples/03-refunds.md#Получить-информацию-о-возврате)
+* [Получить список возвратов с фильтрацией](https://github.com/mkdr4/yookassa-sdk-go/blob/main/docs/examples/03-refunds.md#Получить-список-возвратов-с-фильтрацией)

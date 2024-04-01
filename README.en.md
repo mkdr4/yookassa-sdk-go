@@ -12,16 +12,16 @@
 </div>
 
 ### Installation
-`go get github.com/rvinnie/yookassa-sdk-go`
+`go get github.com/mkdr4/yookassa-sdk-go`
 
 ### Commencing work
 1. Import module
 ```golang
-import "github.com/rvinnie/yookassa-sdk-go"
+import "github.com/mkdr4/yookassa-sdk-go"
 ```
 2. Configure a Client
 ```golang
-import "github.com/rvinnie/yookassa-sdk-go"
+import "github.com/mkdr4/yookassa-sdk-go"
 
 func main() {
     client := yookassa.NewClient('<Account Id>', '<Secret Key>')	
@@ -30,16 +30,16 @@ func main() {
 3. Call the required API method. [More details in our documentation for the YooKassa API](https://yookassa.ru/developers/api?lang=en)
 
 ## Examples of using the API SDK
-#### [YooKassa SDK Settings](https://github.com/rvinnie/yookassa-sdk-go/blob/main/docs/examples/01-configuration.en.md)
-* [Authentication](https://github.com/rvinnie/yookassa-sdk-go/blob/main/docs/examples/01-configuration.en.md#Authentication)
-* [Getting information about the store](https://github.com/rvinnie/yookassa-sdk-go/blob/main/docs/examples/01-configuration.en.md#Getting-information-about-the-store)
-#### [Working with payments](https://github.com/rvinnie/yookassa-sdk-go/blob/main/docs/examples/02-payments.en.md)
-* [Request to create a payment](https://github.com/rvinnie/yookassa-sdk-go/blob/main/docs/examples/02-payments.en.md#Request-to-create-a-payment)
-* [Request for payment confirmation](https://github.com/rvinnie/yookassa-sdk-go/blob/main/docs/examples/02-payments.en.md#Request-for-payment-confirmation)
-* [Request to cancel an incomplete payment](https://github.com/rvinnie/yookassa-sdk-go/blob/main/docs/examples/02-payments.en.md#Request-to-cancel-an-incomplete-payment)
-* [Get payment information](https://github.com/rvinnie/yookassa-sdk-go/blob/main/docs/examples/02-payments.en.md#Get-payment-information)
-* [Get a list of payments with filtering](https://github.com/rvinnie/yookassa-sdk-go/blob/main/docs/examples/02-payments.en.md#Get-a-list-of-payments-with-filtering)
-#### [Working with refunds](https://github.com/rvinnie/yookassa-sdk-go/blob/main/docs/examples/03-refunds.en.md)
-* [Request to create a refund](https://github.com/rvinnie/yookassa-sdk-go/blob/main/docs/examples/03-refunds.en.md#Request-to-create-a-refund)
-* [Get refund information](https://github.com/rvinnie/yookassa-sdk-go/blob/main/docs/examples/03-refunds.en.md#Get-refund-information)
-* [Get a list of refunds with filtering](https://github.com/rvinnie/yookassa-sdk-go/blob/main/docs/examples/03-refunds.en.md#Get-a-list-of-refunds-with-filtering)
+#### [YooKassa SDK Settings](https://github.com/mkdr4/yookassa-sdk-go/blob/main/docs/examples/01-configuration.en.md)
+* [Authentication](https://github.com/mkdr4/yookassa-sdk-go/blob/main/docs/examples/01-configuration.en.md#Authentication)
+* [Getting information about the store](https://github.com/mkdr4/yookassa-sdk-go/blob/main/docs/examples/01-configuration.en.md#Getting-information-about-the-store)
+#### [Working with payments](https://github.com/mkdr4/yookassa-sdk-go/blob/main/docs/examples/02-payments.en.md)
+* [Request to create a payment](https://github.com/mkdr4/yookassa-sdk-go/blob/main/docs/examples/02-payments.en.md#Request-to-create-a-payment)
+* [Request for payment confirmation](https://github.com/mkdr4/yookassa-sdk-go/blob/main/docs/examples/02-payments.en.md#Request-for-payment-confirmation)
+* [Request to cancel an incomplete payment](https://github.com/mkdr4/yookassa-sdk-go/blob/main/docs/examples/02-payments.en.md#Request-to-cancel-an-incomplete-payment)
+* [Get payment information](https://github.com/mkdr4/yookassa-sdk-go/blob/main/docs/examples/02-payments.en.md#Get-payment-information)
+* [Get a list of payments with filtering](https://github.com/mkdr4/yookassa-sdk-go/blob/main/docs/examples/02-payments.en.md#Get-a-list-of-payments-with-filtering)
+#### [Working with refunds](https://github.com/mkdr4/yookassa-sdk-go/blob/main/docs/examples/03-refunds.en.md)
+* [Request to create a refund](https://github.com/mkdr4/yookassa-sdk-go/blob/main/docs/examples/03-refunds.en.md#Request-to-create-a-refund)
+* [Get refund information](https://github.com/mkdr4/yookassa-sdk-go/blob/main/docs/examples/03-refunds.en.md#Get-refund-information)
+* [Get a list of refunds with filtering](https://github.com/mkdr4/yookassa-sdk-go/blob/main/docs/examples/03-refunds.en.md#Get-a-list-of-refunds-with-filtering)

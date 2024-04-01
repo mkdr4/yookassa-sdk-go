@@ -4,8 +4,8 @@ package yookassa
 import (
 	"encoding/json"
 	"fmt"
-	yooerror "github.com/rvinnie/yookassa-sdk-go/yookassa/errors"
-	"github.com/rvinnie/yookassa-sdk-go/yookassa/refund"
+	yooerror "github.com/mkdr4/yookassa-sdk-go/yookassa/errors"
+	"github.com/mkdr4/yookassa-sdk-go/yookassa/refund"
 	"io"
 	"net/http"
 )

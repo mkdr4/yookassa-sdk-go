@@ -2,7 +2,7 @@
 package yoopayment
 
 import (
-	"github.com/rvinnie/yookassa-sdk-go/yookassa/common"
+	"github.com/mkdr4/yookassa-sdk-go/yookassa/common"
 	"time"
 )
 
